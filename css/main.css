@@ -1,0 +1,66 @@
+/* Please visit the URL below for more information: */
+
+/* https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+:root {
+    --font: 'JetBrains Mono', 'Ubuntu Mono', 'Consolas', 'Microsoft YaHei', serif;
+    --bg-color: #2B312C;
+}
+
+.markdown-preview.markdown-preview, .markdown-preview.markdown-preview div, .markdown-preview.markdown-preview h1, .markdown-preview.markdown-preview h2, .markdown-preview.markdown-preview h3, .markdown-preview.markdown-preview h4, .markdown-preview.markdown-preview h5, .markdown-preview.markdown-preview h6, .markdown-preview.markdown-preview code, .markdown-preview.markdown-preview pre, .markdown-preview.markdown-preview strong, .markdown-preview.markdown-preview blockquote, body {
+    background-color: var(--bg-color);
+    font-family: var(--font);
+    color: #E4DFD7;
+}
+
+.markdown-preview.markdown-preview pre {
+    border: 1px solid #474B4C;
+}
+
+.markdown-preview.markdown-preview * {
+    background-color: var(--bg-color);
+}
+
+.hljs {
+    font-family: var(--font);
+}
+
+.token.keyword, .token.operator, .token.selector, .token.tag {
+    color: #D276A3;
+}
+
+.token.builtin, .token.class-name {
+    color: #96C24E;
+}
+
+.token.number {
+    color: #FB9968;
+}
+
+.token.variable, .token.attr-name {
+    color: #F07178;
+}
+
+.token.string, .token.attr-value {
+    color: #F9D367;
+}
+
+.token.built_in, .token.name {
+    color: #96C24E;
+}
+
+.token.function, .token.property {
+    color: #57C3C2;
+}
+
+.token.comment {
+    color: #617172;
+}
+
+.token.punctuation {
+    color: #474B4C;
+}
+
+.token.important {
+    color: #EE3F4D;
+}
